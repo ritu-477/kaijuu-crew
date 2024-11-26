@@ -37,7 +37,7 @@ module.exports = {
         'custom-3xl': "41.6px",
         'custom-4xl': "44.8px",
         'custom-5xl': "54px",
-        // 'custom-6xl': "64.8px",
+        'custom-6xl': "59.28px",
         'custom-7xl': "62.4px",
         'custom-8xl': "72px",
         'custom-9xl': "126px",

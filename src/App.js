@@ -7,6 +7,7 @@ import KaijuuCrewClasses from './components/KaijuuCrewClasses';
 import Team from './components/Team';
 import Story from './components/Story';
 import Traits from './components/Traits';
+import Roadmap from './components/Roadmap';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <AboutUs />
       <KaijuuCrewClasses />
       <Story />
-      <Traits/>
+      <Traits />
+      <Roadmap/>
       <Team />
       <Faq />
     </div>

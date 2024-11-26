@@ -87,22 +87,29 @@ export const TEAM_DATA = [
 
 export const ACCORDION_ITEMS = [
     {
-        title: 'What is an NFT?',
-        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+        title: 'Volutpat gravida sapien in purus',
+        content: 'Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.',
     },
 
     {
-        title: 'How do I buy cryptocurrency with FlipVault?',
-        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+        title: 'Volutpat gravida sapien in purus',
+        content: 'Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.',
     },
 
     {
-        title: 'What is a smart contract?',
-        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+        title: 'Volutpat gravida sapien in purus',
+        content: 'Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.',
     },
 
     {
-        title: 'How do I buy an NFT with FlipVault?',
-        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+        title: 'Volutpat gravida sapien in purus',
+        content: 'Ac pretium feugiat sed id ut viverra nunc lacus, pulvinar purus malesuada adipiscing nisl nullam mi diam sit nisi consectetur non etiam diam.',
     },
+];
+
+export const FOOTER_DATA = [
+    { name: 'twitter', href: 'https://twitter.com' },
+    { name: 'discord', href: 'https://discord.com' },
+    { name: 'instagram', href: 'https://instagram.com' },
+    { name: 'logoMark', href: '/' },
 ];
