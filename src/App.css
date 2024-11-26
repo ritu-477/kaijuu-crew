@@ -10,10 +10,9 @@
   src: url("../src/assets/fonts/Godzilla.ttf");
 }
 
-
-.slider-container {
-  width: calc(98px + 278px + 88px + 128px + 88px + 138px + 208px + 98px + 278px + 88px + 128px + 88px + 138px + 208px);
-  animation: scroll 25s linear infinite;
+html,
+body {
+  scroll-behavior: smooth !important;
 }
 
 .faq-bg {
@@ -21,17 +20,32 @@
 }
 
 .faq-border {
-  border: 1px solid;
-  border-image-source: linear-gradient(141.11deg, rgba(255, 255, 255, 0.25) -1.59%, rgba(255, 255, 255, 0.09) 102.57%);
-  border-image-slice: 1;
   border-radius: 10px !important;
-  overflow: hidden;
+  position: relative;
 }
 
-@media(min-width:768px) {
+.faq-border:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1px;
+  background: linear-gradient(141.11deg, rgba(255, 255, 255, 0.25) -1.59%, rgba(255, 255, 255, 0.09) 102.57%);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.slider-container {
+  display: flex;
+  animation: scroll 2s linear infinite;
+}
+
+@media (min-width: 768px) {
   .slider-container {
-    width: calc(164px + 395px + 127px + 188px + 127px + 199px + 265px + 164px + 395px + 127px + 188px + 127px + 199px + 265px);
-    animation: scroll 10s linear infinite;
+    animation: scroll 5s linear infinite;
   }
 }
 

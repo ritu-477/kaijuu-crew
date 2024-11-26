@@ -10,7 +10,7 @@ import nextButton from '../assets/images/svg/vector-two.svg'
 const Team = () => {
    
   return (
-      <div className="bg-ink-black lg:pt-[76px] md:pt-14 pt-12 lg:pb-[123px] md:pb-20 sm:pb-14 pb-12 -mt-1">
+      <div className="bg-charcoal-black lg:pt-[76px] md:pt-14 pt-6 lg:pb-[123px] md:pb-20 sm:pb-14 pb-6 -mt-1" id='team'>
           <div className="container">
               <CommonHeading className="text-center !text-red" text={'Team'} />
               <div className="lg:mt-14 md:mt-12 mt-10 relative">

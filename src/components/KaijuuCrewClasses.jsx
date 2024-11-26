@@ -20,7 +20,7 @@ const KaijuuCrewClasses = () => {
                         <div key={index} className="flex flex-col transition duration-300 hover:scale-110">
                             <img
                                 src={crew.img}
-                                className="max-w-[254px] rounded-[20px] w-full"
+                                className="max-w-[254px] pointer-events-none rounded-[20px] w-full"
                                 alt={`${crew.title.toLowerCase()}-image`}
                             />
                             <p className="font-semibold text-2xl lg:text-4xl leading pt-4 lg:pt-[18px] text-white text-center font-oswald">

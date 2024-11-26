@@ -57,25 +57,25 @@ const Header = () => {
                                     </li>
                                 ))}
                                 <li className="relative">
-                                    <a onClick={toggleDropdown} className='font-normal font-oswald gap-1 relative text-white lg:text-custom2xl lg:leading-8 text-lg flex items-center space-x-1 cursor-pointer after:absolute hover:text-red ease-in-out duration-300' href="#"><img className='mr-2' src={flagImg} alt="" /> ENG
+                                    <a onClick={toggleDropdown} className='font-normal font-oswald gap-1 relative text-white lg:text-custom2xl lg:leading-8 text-lg flex items-center space-x-1 cursor-pointer after:absolute hover:text-red ease-in-out duration-300' href="#"><img className='mr-2'src={flagImg} alt="flag-image" /> ENG
                                         <span>
                                             <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg" className={`transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`}><path
                                                 d="M11.8027 6.20992C11.6712 6.06997 11.5037 6 11.3004 6C11.0972 6 10.9297 6.06997 10.7982 6.20992L8 9.18702L5.20179 6.20992C5.07025 6.06997 4.90284 6 4.69955 6C4.49626 6 4.32885 6.06997 4.19731 6.20992C4.06577 6.34987 4 6.52799 4 6.74427C4 6.96056 4.06577 7.13867 4.19731 7.27862L7.49776 10.7901C7.56951 10.8664 7.64723 10.9206 7.73094 10.9527C7.81465 10.9847 7.90433 11.0005 8 11C8.09566 11 8.18535 10.984 8.26906 10.9519C8.35277 10.9198 8.43049 10.8659 8.50224 10.7901L11.8027 7.27862C11.9342 7.13867 12 6.96056 12 6.74427C12 6.52799 11.9342 6.34987 11.8027 6.20992Z"
                                                 fill="white" className='2xl:fill-vibrantBlue' /></svg>
                                         </span>
                                         {isDropdownOpen && (
-                                            <span className="absolute w-[182px] left-0 top-3 px-2 pt-[14px] pb-2 mt-7 bg-light-black border border-gray-border rounded-xl z-30" ref={dropdownRef}>
-                                                <span className="block px-1 py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-primary-white hover:bg-black rounded-lg">
-                                                    Smart Routing
+                                            <span className="absolute w-[150px] left-0 top-3 px-2 pt-[14px] pb-2 mt-7 bg-charcoal-black border-white rounded-xl z-30" ref={dropdownRef}>
+                                                <span className="block px-1 text-center py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-white hover:bg-black rounded-lg">
+                                                    About Us
                                                 </span>
-                                                <span className="block px-1 py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-primary-white hover:bg-black rounded-lg">
-                                                    Universal API
+                                            <span className="block px-1  text-center py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-white hover:bg-black rounded-lg">
+                                                    Story
                                                 </span>
-                                                <span className="block px-1 py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-primary-white hover:bg-black rounded-lg">
-                                                    LLM Observability
+                                            <span className="block px-1  text-center py-2 lg:text-lg max-w-[171.94px] leading-custom-lg text-base text-white hover:bg-black rounded-lg">
+                                                   Traits
                                                 </span>
-                                                <span className="block px-1 lg:text-lg py-[10.5px] max-w-[171.94px] leading-custom-lg text-primary-white hover:bg-black rounded-lg">
-                                                    AI Compliance
+                                            <span className="block px-1  text-center lg:text-lg py-[10.5px] max-w-[171.94px] leading-custom-lg text-white hover:bg-black rounded-lg">
+                                                  Team
                                                 </span>
                                             </span>)}
                                     </a>

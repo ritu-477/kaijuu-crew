@@ -5,7 +5,7 @@ import aboutImg from '../assets/images/webp/about-image.webp'
 
 const AboutUs = () => {
   return (
-      <div className='bg-charcoal-black -mt-1'>
+      <div className='bg-charcoal-black -mt-1' id='about'>
           <div className='container pt-12 md:pt-[61px] pb-12 sm:pb-16 md:pb-24 lg:pb-[135.84px]'>
               <div className='flex flex-row justify-between flex-wrap -mx-3 max-lg:justify-center'>
                   <div className='lg:w-1/2 w-full px-3 flex flex-col justify-center max-lg:items-center'>
@@ -21,7 +21,7 @@ const AboutUs = () => {
                      </div>
                   </div>
                   <div className='lg:w-1/2 w-full px-3 flex lg:justify-end justify-center lg:mt-0 mt-5'>
-                      <img className='max-w-[579px] w-full mx-auto' src={aboutImg} alt="about-image" />
+                      <img className='max-w-[579px] pointer-events-none w-full mx-auto' src={aboutImg} alt="about-image" />
                   </div>
               </div>
           </div>    

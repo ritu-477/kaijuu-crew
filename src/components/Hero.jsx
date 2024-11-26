@@ -49,7 +49,7 @@ const Hero = () => {
     const formatTime = (time) => (time < 10 ? `0${time}` : time);
 
     return (
-        <div className="bg-hero bg-cover bg-no-repeat bg-center">
+        <div className="bg-hero bg-cover bg-no-repeat bg-center -mt-[1px]">
             <div className="container pt-[55px]">
                 <div className="flex flex-row justify-between flex-wrap -mx-3">
                     <div className="lg:w-1/3 w-full px-3">
@@ -88,7 +88,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='lg:w-1/2 flex flex-col items-end px-3 lg:mt-0 mt-5'>
-                        <img className='max-w-[707px] w-full' src={heroImg} alt="hero-image" />
+                        <img className='max-w-[707px] w-full pointer-events-none' src={heroImg} alt="hero-image" />
                     </div>
                 </div>
             </div>

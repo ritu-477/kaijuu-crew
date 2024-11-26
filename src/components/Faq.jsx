@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
-import CommonHeading from '../common/CommonHeading';
+import React, { useRef, useState } from 'react';
 import { ACCORDION_ITEMS } from '../utils/Helper';
 import Footer from '../common/Footer';
+import CommonHeading from '../common/CommonHeading';
 
 const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(null);
+    const contentRefs = useRef([]);
 
     const toggleAccordion = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
     return (
-        <div className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px]">
+        <div className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px]" id='faq'>
             <div className="container lg:pt-[106px] md:pt-20 sm:pt-14 pt-12 lg:pb-[120px] md:pb-20 sm:pb-14 pb-12">
                 <CommonHeading
                     className="text-center"
@@ -21,16 +22,15 @@ const Faq = () => {
                             <span className="text-white text-3xl lg:text-custom-5xl lg:leading-custom-2xl">s</span>
                         </>
                     }
-                />
-                <div className="lg:mt-14 sm:mt-12 mt-8 max-w-[830px] mx-auto">
+                />                <div className="lg:mt-14 sm:mt-12 mt-8 max-w-[830px] mx-auto">
                     {ACCORDION_ITEMS.map((item, index) => (
                         <div
                             key={index}
-                            className={`faq-bg faq-border mb-4 backdrop-blur-[35px] transition-all duration-500`}
+                            className="bg-red-100 faq-border mb-4 backdrop-blur-[35px] transition-all duration-500"
                         >
                             <button
                                 onClick={() => toggleAccordion(index)}
-                                className={`flex items-center justify-between font-oswald w-full text-left text-white text-lg sm:text-custom2xl leading-8 font-bold p-4 sm:py-5 px-8`}
+                                className="flex items-center justify-between font-oswald w-full text-left text-white text-lg sm:text-custom2xl leading-8 font-bold p-4 sm:py-5 sm:px-8"
                             >
                                 <span>{item.title}</span>
                                 <svg
@@ -49,13 +49,13 @@ const Faq = () => {
                                 </svg>
                             </button>
                             <div
-                                className="overflow-hidden"
+                                ref={(el) => (contentRefs.current[index] = el)}
                                 style={{
-                                    maxHeight: activeIndex === index ? '300px' : '0px',
-                                    opacity: activeIndex === index ? 1 : 0,
+                                    height: activeIndex === index ? `${contentRefs.current[index]?.scrollHeight}px` : '0px',
                                 }}
+                                className={`overflow-hidden transition-all duration-500 ease-in-out`}
                             >
-                                <div className="p-4 sm:pb-5 px-8 pt-[14px] text-white font-oswald text-base font-normal sm:text-custom2xl sm:leading-8">
+                                <div className="p-[0_16px_16px_16px] sm:pb-5 sm:px-8 sm:pt-[14px] text-white font-oswald text-base font-normal sm:text-custom2xl sm:leading-8">
                                     {item.content}
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const Faq = () => {
                     ))}
                 </div>
             </div>
-            <Footer />
+            <Footer/>
         </div>
     );
 };

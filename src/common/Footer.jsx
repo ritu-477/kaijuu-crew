@@ -2,6 +2,7 @@ import React from 'react';
 import Icon from './Icons';
 import footerLogo from '../assets/images/webp/footer-logo.webp';
 import { FOOTER_DATA }  from '../utils/Helper'
+import BackToTop from '../components/BackToTop';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -28,6 +29,7 @@ const Footer = () => {
                     Copyright © Kaijuu Crew {currentYear}
                 </p>
             </div>
+            <BackToTop/>
         </div>
     );
 };
