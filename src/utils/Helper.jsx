@@ -14,6 +14,8 @@ import heaviesImg from '../assets/images/webp/heavies-image.webp';
 import legendsImg from '../assets/images/webp/legends-image.webp';
 import elementalsImg from '../assets/images/webp/elementals-image.webp';
 import blankImg from '../assets/images/webp/blank-image.webp';
+import teamOne from '../assets/images/webp/team-one.webp'
+import teamTwo from '../assets/images/webp/team-two.webp'
 
 export const NAV_DATA_LINK = [
     { label: "About Us", href: "#pricing" },
@@ -34,9 +36,6 @@ export const CONTINUE_SLIDER_DATA = [
     { src: cartoonSeven, alt: "cartoon-seven", maxWidth: "220px" },
     { src: cartoonEight, alt: "cartoon-eight", maxWidth: "220px" },
     { src: cartoonNine, alt: "cartoon-nine", maxWidth: "220px" },
-    { src: cartoonTen, alt: "cartoon-ten", maxWidth: "220px" },
-    { src: cartoonEleven, alt: "cartoon-eleven", maxWidth: "220px" },
-    { src: cartoonOne, alt: "cartoon-one", maxWidth: "220px" },
 ];
 
 export const CREW_DATA = [
@@ -45,4 +44,65 @@ export const CREW_DATA = [
     { img: legendsImg, title: 'Legends' },
     { img: elementalsImg, title: 'Elementals' },
     { img: blankImg, title: '???' },
+];
+
+export const TEAM_DATA = [
+    {
+        img: teamOne,
+        name: 'Boss Kaijuu',
+        id: 'KJC#29',
+    },
+
+    {
+        img: teamTwo,
+        name: '???',
+        id: 'KJC#29',
+    },
+
+    {
+        img: teamTwo,
+        name: '???',
+        id: 'KJC#29',
+    },
+
+    {
+        img: teamOne,
+        name: 'Boss Kaijuu',
+        id: 'KJC#29',
+    },
+
+    {
+        img: teamTwo,
+        name: '???',
+        id: 'KJC#29',
+    },
+
+    {
+        img: teamOne,
+        name: 'Boss Kaijuu',
+        id: 'KJC#29',
+    },
+
+];
+
+export const ACCORDION_ITEMS = [
+    {
+        title: 'What is an NFT?',
+        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+    },
+
+    {
+        title: 'How do I buy cryptocurrency with FlipVault?',
+        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+    },
+
+    {
+        title: 'What is a smart contract?',
+        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+    },
+
+    {
+        title: 'How do I buy an NFT with FlipVault?',
+        content: 'Lorem ipsum dolor sit amet consectetur. Nulla aliquet eu nunc donec sit. Ornare id sed euismod sodales a dictum. Ornare id sed euismod sodales a dictum',
+    },
 ];
