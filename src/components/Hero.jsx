@@ -89,7 +89,7 @@ const Hero = () => {
                                 CONNECT WALLET</button>
                         </div>
                     </div>
-                    <div className='lg:w-1/2 flex flex-col items-end px-3 lg:mt-0 mt-5'>
+                    <div className='lg:w-[55%] flex flex-col items-end px-3 lg:mt-0 mt-5'>
                         <img className='max-w-[707px] w-full pointer-events-none' src={heroImg} alt="hero-image" />
                     </div>
                 </div>
