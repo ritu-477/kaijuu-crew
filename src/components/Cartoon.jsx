@@ -20,16 +20,16 @@ const Cartoon = () => {
 
   return (
     <div>
-      <div className="overflow-hidden mx-auto max-w-[1920px]">
+      <div className="overflow-hidden mx-auto max-w-[1920px] h-[295px]">
         <div className="sm:mt-8 mt-6 flex slider-container overflow-hidden">
           {[...sliderData, ...sliderData].map((logo, index) => (
             <div
               key={`${logo.alt}-${index}`}
-              className="flex items-center">
+              className="flex !items-center">
               <img
                 src={logo.src}
                 alt={logo.alt}
-                className="object-contain pointer-events-none"
+                className="pointer-events-none"
                 style={{ maxWidth: logo.maxWidth }}
               />
             </div>

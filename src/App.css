@@ -38,6 +38,10 @@ body {
   z-index: -1;
 }
 
+.layer-gradient{
+background: linear-gradient(180deg, #001120 0%, rgba(0, 17, 32, 0) 100%);
+}
+
 .slider-container {
   display: flex;
   animation: scroll 2s linear infinite;
@@ -57,4 +61,7 @@ body {
   100% {
     transform: translateX(-50%);
   }
+}
+.scroll{
+  animation: scroll-right-to-left 10s linear infinite;
 }

@@ -5,11 +5,11 @@ import CommonHeading from '../common/CommonHeading'
 
 const Story = () => {
   return (
-      <div className='bg-ink-black lg:pt-16 md:pt-14 pt-12 lg:pb-24 md:pb-16 sm:pb-14 pb-12 -mt-[1px]' id='story'>
+      <div className='bg-charcoal-black lg:pt-16 md:pt-14 pt-12 lg:pb-24 md:pb-16 sm:pb-14 pb-12 -mt-[1px]' id='story'>
           <div className='container'>
               <div className='flex flex-wrap -mx-3 lg:flex-row flex-col-reverse'>
                   <div className='lg:w-[50%] w-full px-3 flex max-lg:justify-center lg:mt-0 mt-5'>
-                      <img className='max-w-[700px] pointer-events-none w-full' src={storyImg} alt="story-image" />
+                      <img className='max-w-[650px] pointer-events-none w-full' src={storyImg} alt="story-image" />
                   </div>
                   <div className='lg:w-[50%] w-full px-3 flex justify-center flex-col'>
                       <CommonHeading className="text-center lg:text-start !text-red" text={'Story'} />

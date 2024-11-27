@@ -12,7 +12,6 @@ import Roadmap from './components/Roadmap';
 function App() {
   return (
     <div>
-      <Header />
       <Hero />
       <AboutUs />
       <KaijuuCrewClasses />

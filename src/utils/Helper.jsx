@@ -30,8 +30,8 @@ export const NAV_DATA_LINK = [
 export const CONTINUE_SLIDER_DATA = [
     { src: cartoonOne, alt: "cartoon-one", maxWidth: "220px" },
     { src: cartoonTwo, alt: "cartoon-two", maxWidth: "220px" },
-    { src: cartoonThree, alt: "cartoon-three", maxWidth: "231px" },
-    { src: cartoonFour, alt: "cartoon-four", maxWidth: "231px" },
+    { src: cartoonThree, alt: "cartoon-three", maxWidth: "220px" },
+    { src: cartoonFour, alt: "cartoon-four", maxWidth: "220px" },
     { src: cartoonFive, alt: "cartoon-five", maxWidth: "220px" },
     { src: cartoonSix, alt: "cartoon-six", maxWidth: "220px" },
     { src: cartoonSeven, alt: "cartoon-seven", maxWidth: "220px" },
@@ -39,8 +39,8 @@ export const CONTINUE_SLIDER_DATA = [
     { src: cartoonNine, alt: "cartoon-nine", maxWidth: "220px" },
     { src: cartoonTen, alt: "cartoon-eight", maxWidth: "220px" },
     { src: cartoonEleven, alt: "cartoon-nine", maxWidth: "220px" },
-    { src: cartoonThree, alt: "cartoon-three", maxWidth: "231px" },
-    { src: cartoonFour, alt: "cartoon-four", maxWidth: "231px" },
+    { src: cartoonThree, alt: "cartoon-three", maxWidth: "220px" },
+    { src: cartoonFour, alt: "cartoon-four", maxWidth: "220px" },
     { src: cartoonFive, alt: "cartoon-five", maxWidth: "220px" },
     { src: cartoonSix, alt: "cartoon-six", maxWidth: "220px" },
 ];

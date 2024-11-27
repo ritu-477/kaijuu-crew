@@ -15,8 +15,8 @@ const Roadmap = () => {
                 <CommonHeading className="text-center !text-red" text={'Roadmap'} />
                 <div className='xl:block hidden'>
                     <div className='max-w-[1320px] mx-auto relative lg:mb-[250px] md:mb-16 sm:mb-14 mb-12'>
-                        <img className='absolute pointer-events-none top-[49%] xl:left-[15.6%] 2xl:left-[16%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
-                        <img className='absolute pointer-events-none top-[50%] left-[28.5%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
+                        <img className='absolute pointer-events-none top-[47%] xl:left-[15.6%] 2xl:left-[16%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
+                        <img className='absolute pointer-events-none top-[48%] left-[28.5%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
                         <img className='absolute pointer-events-none top-[49%] right-[28.5%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
                         <img className='absolute pointer-events-none top-[50%] xl:right-[15.6%] 2xl:right-[16%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
                         <div className='flex flex-wrap -mx-3 flex-row lg:pt-24 md:pt-20 sm:pt-14 pt-10 justify-center'>

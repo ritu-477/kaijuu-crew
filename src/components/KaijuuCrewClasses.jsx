@@ -4,7 +4,7 @@ import { CREW_DATA } from '../utils/Helper'
 
 const KaijuuCrewClasses = () => {
     return (
-        <div className="bg-kaijuu bg-cover bg-no-repeat bg-center xl:pt-[171px] lg:pt-32 md:pt-20 sm:pt-16 pt-12 md:pb-36 sm:pb-28 pb-20 lg:pb-44 xl:pb-56 -mt-1">
+        <div className="bg-kaijuu bg-cover bg-no-repeat bg-center xl:pt-[171px] lg:pt-32 md:pt-20 sm:pt-16 pt-12 md:pb-36 sm:pb-28 pb-12 lg:pb-44 xl:pb-56 -mt-1">
             <CommonHeading
                 className="text-center"
                 text={

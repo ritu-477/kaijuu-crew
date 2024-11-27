@@ -29,7 +29,7 @@ const Footer = () => {
                     Copyright © Kaijuu Crew {currentYear}
                 </p>
             </div>
-            <BackToTop/>
+            <BackToTop />
         </div>
     );
 };

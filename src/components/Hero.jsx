@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CommonPara from '../common/CommonPara';
 import heroImg from '../assets/images/webp/hero-image.webp'
 import Cartoon from './Cartoon';
+import Header from '../common/Header';
 
 const Hero = () => {
     const [timeLeft, setTimeLeft] = useState({
@@ -50,6 +51,7 @@ const Hero = () => {
 
     return (
         <div className="bg-hero bg-cover bg-no-repeat bg-center -mt-[1px]">
+            <Header/>
             <div className="container pt-[55px]">
                 <div className="flex flex-row justify-between flex-wrap -mx-3">
                     <div className="lg:w-1/3 w-full px-3">
@@ -58,7 +60,7 @@ const Hero = () => {
                            <span className='lg:block'></span>
                             Crew</h1>
                         <CommonPara
-                            className="lg:max-w-[325px] lg:text-start text-center"
+                            className="lg:max-w-[325px] pt-[18px] lg:text-start text-center"
                             text={`The ocean surges with spray and foam, As Kaijuu rise from depth to roam.
                                 Thirty-three hundred, and thirty-three more, Decked in garbs from days of yore.
                                        We scour the earth and sea and air,Our mission so grave few would dare.In search of untold wealth to hoard?

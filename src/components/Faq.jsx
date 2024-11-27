@@ -4,7 +4,7 @@ import Footer from '../common/Footer';
 import CommonHeading from '../common/CommonHeading';
 
 const Faq = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
+    const [activeIndex, setActiveIndex] = useState(0);
     const contentRefs = useRef([]);
 
     const toggleAccordion = (index) => {
@@ -12,7 +12,7 @@ const Faq = () => {
     };
 
     return (
-        <div className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px]" id='faq'>
+        <div className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px] relative" id="faq">
             <div className="container lg:pt-[106px] md:pt-20 sm:pt-14 pt-12 lg:pb-[120px] md:pb-20 sm:pb-14 pb-12">
                 <CommonHeading
                     className="text-center"
@@ -22,7 +22,8 @@ const Faq = () => {
                             <span className="text-white text-3xl lg:text-custom-5xl lg:leading-custom-2xl">s</span>
                         </>
                     }
-                />                <div className="lg:mt-14 sm:mt-12 mt-8 max-w-[830px] mx-auto">
+                />
+                <div className="lg:mt-14 sm:mt-12 mt-8 max-w-[830px] mx-auto">
                     {ACCORDION_ITEMS.map((item, index) => (
                         <div
                             key={index}
@@ -53,7 +54,7 @@ const Faq = () => {
                                 style={{
                                     height: activeIndex === index ? `${contentRefs.current[index]?.scrollHeight}px` : '0px',
                                 }}
-                                className={`overflow-hidden transition-all duration-500 ease-in-out`}
+                                className="overflow-hidden transition-all duration-500 ease-in-out"
                             >
                                 <div className="p-[0_16px_16px_16px] sm:pb-5 sm:px-8 sm:pt-[14px] text-white font-oswald text-base font-normal sm:text-custom2xl sm:leading-8">
                                     {item.content}
@@ -63,7 +64,8 @@ const Faq = () => {
                     ))}
                 </div>
             </div>
-            <Footer/>
+            <Footer />
+            <span className="layer-gradient w-full h-[244px] absolute -z-10 bottom-0"></span>
         </div>
     );
 };

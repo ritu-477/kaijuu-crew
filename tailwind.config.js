@@ -47,6 +47,7 @@ module.exports = {
         'ink-black': "#0D0D0D", 
         'charcoal-black': "#001120",
         'red': "#FF002A",
+        'jet-black': "#141313",
       },
 
       backgroundImage: {
