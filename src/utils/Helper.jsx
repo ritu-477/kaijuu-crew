@@ -9,7 +9,6 @@ import cartoonEight from '../assets/images/webp/cartoon-eight.webp'
 import cartoonNine from '../assets/images/webp/cartoon-nine.webp'
 import cartoonTen from '../assets/images/webp/cartoon-ten.webp'
 import cartoonEleven from '../assets/images/webp/cartoon-eleven.webp'
-import cartoonImg from '../assets/images/webp/cartoon-image.webp'
 import scoutsImg from '../assets/images/webp/scouts-image.webp';
 import heaviesImg from '../assets/images/webp/heavies-image.webp';
 import legendsImg from '../assets/images/webp/legends-image.webp';
@@ -119,7 +118,7 @@ export const FOOTER_DATA = [
     { name: 'twitter', href: 'https://twitter.com' },
     { name: 'discord', href: 'https://discord.com' },
     { name: 'instagram', href: 'https://instagram.com' },
-    { name: 'logoMark', href: '/' },
+    { name: 'logoMark', href: 'https://opensea.io/' },
 ];
 
 export const ROADMAP_DATA = [
