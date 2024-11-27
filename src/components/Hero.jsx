@@ -59,13 +59,12 @@ const Hero = () => {
                             <span className="text-red">Kaijuu</span>
                            <span className='lg:block'></span>
                             Crew</h1>
-                        <CommonPara
-                            className="lg:max-w-[325px] w-full pt-[18px] lg:text-start text-center"
-                            text={`The ocean surges with spray and foam, As Kaijuu rise from depth to roam.
-                                Thirty-three hundred, and thirty-three more, Decked in garbs from days of yore.
-                                       We scour the earth and sea and air,Our mission so grave few would dare.In search of untold wealth to hoard?
-                                          Nay, but 'cause your Apes are Bored.`}
-                        />
+                        <p className='lg:max-w-[329px] w-full text-white font-oswald text-base text-custom2xl leading-8 pt-[18px] lg:text-start text-center'>The ocean surges with spray and foam,
+                            As Kaijuu rise from depth to roam.
+                         Thirty-three hundred, and thirty-three more,<span className='lg:block'></span>
+                            Decked in garbs from days of yore.
+                            We scour the earth and sea and air,Our mission so grave few would dare.In search of untold wealth to hoard?<span className='lg:block'></span>
+                            Nay, but 'cause your Apes are Bored.</p>
                         <div className="flex flex-col py-[18px] max-lg:items-center">
                             <p className="font-bold text-white font-oswald text-3xl sm:text-4xl sm:leading-custom-5xl lg:text-5xl lg:leading-custom-8xl">
                                 {formatTime(timeLeft.days)}:{formatTime(timeLeft.hours)}:

@@ -8,11 +8,11 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center xl:pt-[72px]'>
             <a className='sm:max-w-[183px] max-w-[100px]' href="/">
                 <img src={footerLogo} alt="footer-logo" />
             </a>
-            <div className='flex justify-center gap-6 sm:pt-7 pt-4'>
+            <div className='flex justify-center gap-6 sm:pt-8 pt-4'>
                 {FOOTER_DATA.map((link, index) => (
                     <a
                         key={index}
