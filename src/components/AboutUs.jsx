@@ -16,7 +16,7 @@ const AboutUs = () => {
                       />
                       <CommonPara className='lg:max-w-[648px] lg:text-start text-center w-full sm:pt-7 pt-4' text={`It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.`} />
                       <div className='sm:pt-[34px] pt-6'>
-                          <button className='py-3 sm:px-8 px-4 font-oswald group bg-red hover:bg-white text-white transition duration-300 text-base sm:text-lg font-bold hover:text-red rounded-lg'>
+                          <button className='py-3 max-w-[139px] w-full sm:px-8 px-4 font-oswald group bg-red hover:bg-white text-white transition duration-300 text-base sm:text-lg font-bold hover:text-red rounded-lg'>
                               MINT NFT</button>
                      </div>
                   </div>

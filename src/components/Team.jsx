@@ -15,11 +15,11 @@ const Team = () => {
               <CommonHeading className="text-center !text-red" text={'Team'} />
               <div className="lg:mt-14 md:mt-12 mt-10 relative">
                   <button
-                      className="absolute swiper-button-prev top-1/2 2xl:-left-24 lg:-left-5 -left-1 z-10">
+                      className="absolute swiper-button-prev top-1/2 2xl:-left-6 lg:-left-5 -left-1 z-10">
                       <img className='2xl:w-[74px] cursor-pointer 2xl:h-[23px] lg:w-12 lg:h-4 w-6 h-3 z-10' src={prevButton} alt="prev-button" />
                   </button>
                   <button    
-                      className="absolute swiper-button-next cursor-pointer top-[45%] 2xl:-right-24 lg:-right-5 -right-1 z-10">
+                      className="absolute swiper-button-next cursor-pointer top-[45%] 2xl:-right-6 lg:-right-5 -right-1 z-10">
                       <img className='2xl:w-[74px] 2xl:h-[23px] lg:w-12 lg:h-4 w-6 h-3 z-10' src={nextButton} alt="next-button" />
                   </button>
                   <Swiper

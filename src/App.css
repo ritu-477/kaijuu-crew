@@ -38,13 +38,18 @@ body {
   z-index: -1;
 }
 
-.layer-gradient{
-background: linear-gradient(180deg, #001120 0%, rgba(0, 17, 32, 0) 100%);
-}
-
 .slider-container {
   display: flex;
   animation: scroll 2s linear infinite;
+}
+
+@media(min-width:1700px) and (max-width:1919.99px){
+  .swiper-button-prev{
+    left: -96px;
+  }
+  .swiper-button-next{
+   right: -96px;
+  }
 }
 
 @media (min-width: 768px) {

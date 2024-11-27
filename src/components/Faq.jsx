@@ -65,7 +65,6 @@ const Faq = () => {
                 </div>
             </div>
             <Footer />
-            <span className="layer-gradient w-full h-[244px] absolute -z-10 bottom-0"></span>
         </div>
     );
 };

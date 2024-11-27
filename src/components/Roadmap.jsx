@@ -55,7 +55,7 @@ const Roadmap = () => {
                             <div className='w-1/3 flex-col flex items-center ps-[175px]'>
                                 <div className='flex gap-2'>
                                     <span className='w-1 h-1 bg-white rounded-full mt-4'></span>
-                                    <p className='text-custom2xl leading-8 font-oswald font-normal text-white max-w-[216px]'>Elementum elementum sit mauris amet non.</p>
+                                    <p className='text-custom2xl leading-8 font-oswald font-normal text-white max-w-[207px]'>Elementum elementum sit mauris amet non.</p>
                                 </div>
                                 <div className='relative max-w-[300px] mt-5'>
                                     <img className='max-w-[220px] pointer-events-none' src={phaseThree} alt="phase-one" />
