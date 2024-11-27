@@ -53,17 +53,15 @@ const Hero = () => {
         <div className="bg-hero bg-cover bg-no-repeat bg-center -mt-[1px]">
             <Header/>
             <div className="container pt-[55px]">
-                <div className="flex flex-row justify-between flex-wrap -mx-3">
-                    <div className="lg:w-1/3 w-full px-3">
-                        <h1 className="font-normal lg:text-start text-center md:text-9xl text-5xl sm:text-7xl lg:text-custom-9xl text-white lg:leading-custom-9xl font-godzilla lg:max-w-[456px]">
-                            <span className="text-red">Kaijuu</span>
-                           <span className='lg:block'></span>
-                            Crew</h1>
-                        <p className='lg:max-w-[329px] w-full text-white font-oswald text-base text-custom2xl leading-8 pt-[18px] lg:text-start text-center'>The ocean surges with spray and foam,
-                            As Kaijuu rise from depth to roam.
-                         Thirty-three hundred, and thirty-three more,<span className='lg:block'></span>
-                            Decked in garbs from days of yore.
-                            We scour the earth and sea and air,Our mission so grave few would dare.In search of untold wealth to hoard?<span className='lg:block'></span>
+                <div className="flex lg:flex-row justify-between flex-col">
+                    <div className="lg:w-[35%] w-full">
+                        <h1 className="font-normal lg:text-start text-center md:text-7xl text-5xl sm:text-6xl xl:text-custom-9xl text-white xl:leading-custom-9xl font-godzilla lg:max-w-[456px]">
+                            <span className="text-red">Kaijuu</span><span className='xl:block'></span> Crew</h1>
+                        <p className='xl:max-w-[368px] w-full text-white font-oswald text-base md:text-lg xl:text-custom2xl xl:leading-8 lg:pt-[18px] pt-4 lg:text-start text-center'>The ocean surges with spray and foam,
+                            <span className='xl:block'>As Kaijuu rise from depth to roam.</span>
+                            <span className='xl:block'>Thirty-three hundred, and thirty-three more,</span><span className='xl:block'></span>
+                            Decked in garbs from days of yore.<span className='xl:block'>We scour the earth and sea and air,</span>
+                            Our mission so grave few would dare.<span className='xl:block'>In search of untold wealth to hoard?</span><span className='xl:block'></span>
                             Nay, but 'cause your Apes are Bored.</p>
                         <div className="flex flex-col py-[18px] max-lg:items-center">
                             <p className="font-bold text-white font-oswald text-3xl sm:text-4xl sm:leading-custom-5xl lg:text-5xl lg:leading-custom-8xl">
@@ -88,7 +86,7 @@ const Hero = () => {
                                 CONNECT WALLET</button>
                         </div>
                     </div>
-                    <div className='lg:w-[55%] flex flex-col items-end px-3 lg:mt-0 mt-5'>
+                    <div className='lg:w-[55%] flex flex-col items-end lg:mt-0 mt-5'>
                         <img className='max-w-[707px] w-full pointer-events-none' src={heroImg} alt="hero-image" />
                     </div>
                 </div>

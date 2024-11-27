@@ -44,7 +44,7 @@ const Header = () => {
     }, [isMenuOpen]);
 
     return (
-        <div className="md:h-[98px] sm:h-16 h-20 flex w-full flex-col mx-auto items-center bg-jet-black py-8 sm:pt-9 sm:pb-[26px] relative z-20">
+        <div className="lg:h-[98px] h-16 sm:h-20 flex w-full flex-col mx-auto items-center bg-jet-black py-6 lg:pt-9 lg:pb-[26px] relative z-20">
             <div className='container'>
                 <div className='flex justify-between items-center'>
                         <a href="/"><img src={navLogo} alt="nav-logo" className='md:max-w-[177.26px] max-w-[130px]' /></a>

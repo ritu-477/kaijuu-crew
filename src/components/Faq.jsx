@@ -13,7 +13,7 @@ const Faq = () => {
 
     return (
         <div className="bg-faq bg-cover bg-no-repeat bg-center -mt-[1px] relative" id="faq">
-            <div className="container lg:pt-20 xl:pt-[1px] md:pt-20 sm:pt-14 pt-12 lg:pb-[120px] md:pb-20 sm:pb-14 pb-12">
+            <div className="container lg:pt-20 xl:pt-[106px] sm:pt-14 pt-12 lg:pb-[120px] md:pb-20 sm:pb-14 pb-12">
                 <CommonHeading
                     className="text-center"
                     text={

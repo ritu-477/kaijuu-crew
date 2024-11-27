@@ -1,41 +1,38 @@
-import React, { useState, useEffect } from 'react';
-import { CONTINUE_SLIDER_DATA } from '../utils/Helper';
+import React from "react";
+import Slider from "react-slick";
+import { CONTINUE_SLIDER_DATA } from "../utils/Helper";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Cartoon = () => {
-  const [sliderData, setSliderData] = useState(CONTINUE_SLIDER_DATA);
-
-  useEffect(() => {
-    const handleResize = () => {
-      const isDesktop = window.innerWidth >= 768; // Adjust breakpoint as needed
-      setSliderData(isDesktop ? CONTINUE_SLIDER_DATA.slice(0, 9) : CONTINUE_SLIDER_DATA);
-    };
-
-    handleResize(); // Set initial state
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  const settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    slidesToShow: 9,
+    slidesToScroll: 1,
+    variableWidth: true,
+  };
 
   return (
-    <div>
-      <div className="overflow-hidden mx-auto max-w-[1920px] h-[295px]">
-        <div className="sm:mt-8 mt-6 flex slider-container overflow-hidden">
-          {[...sliderData, ...sliderData].map((logo, index) => (
-            <div
-              key={`${logo.alt}-${index}`}
-              className="flex !items-center">
-              <img
-                src={logo.src}
-                alt={logo.alt}
-                className="pointer-events-none"
-                style={{ maxWidth: logo.maxWidth }}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
+    <div className="overflow-hidden mx-auto h-[160px] md:h-[200px] xl:h-[295px] mt-4 md:mt-8">
+      <Slider {...settings} className="slider_collaboration">
+        {CONTINUE_SLIDER_DATA.map((logo, index) => (
+          <div
+            key={`${logo.alt}-${index}`}
+            className="flex items-center justify-center">
+            <img
+              src={logo.src}
+              alt={logo.alt}
+              className="pointer-events-none h-[160px] md:h-[200px] xl:h-[295px]"
+            />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

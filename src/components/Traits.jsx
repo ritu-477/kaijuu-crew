@@ -5,7 +5,7 @@ import Icon from '../common/Icons'
 
 const Traits = () => {
   return (
-      <div className='bg-traits max0lg:bg-cover lg:bg-[length:100%_100%] bg-no-repeat bg-center -mt-[1px]' id='traits'>
+      <div className='bg-traits bg-cover bg-no-repeat bg-center -mt-[1px]' id='traits'>
           <div className='container max-w-[1403px] lg:pt-24 md:pt-20 sm:pt-16 pt-12 xl:pb-[160px] lg:pb-32 sm:pb-20 pb-6 '>
               <CommonHeading className="text-center !text-red" text={'Traits'} />
               <div className='flex lg:flex-row flex-col max-lg:flex-col-reverse lg:mt-10 sm:mt-8 mt-6'>

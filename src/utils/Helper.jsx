@@ -30,7 +30,7 @@ export const NAV_DATA_LINK = [
 export const CONTINUE_SLIDER_DATA = [
     { src: cartoonOne, alt: "cartoon-one", maxWidth: "220px" },
     { src: cartoonTwo, alt: "cartoon-two", maxWidth: "220px" },
-    { src: cartoonThree, alt: "cartoon-three", maxWidth: "220px" },
+    { src: cartoonThree, alt: "cartoon-three", maxWidth: "231px" },
     { src: cartoonFour, alt: "cartoon-four", maxWidth: "220px" },
     { src: cartoonFive, alt: "cartoon-five", maxWidth: "220px" },
     { src: cartoonSix, alt: "cartoon-six", maxWidth: "220px" },

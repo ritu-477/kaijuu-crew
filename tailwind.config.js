@@ -13,8 +13,10 @@ module.exports = {
         sm: "640px",
         md: "768px",
         lg: "1024px",
-        xl: "1320px",
-        "2xl":"1360px",
+        xl: "1280px",
+        "2xl": "1360px",
+        "3xl": "1536px",
+
       },
       fontSize: {
         'custom2xl': "22px",

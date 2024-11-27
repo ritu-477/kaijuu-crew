@@ -49,17 +49,17 @@ const Roadmap = () => {
                                 </div>
                                 <div className='relative max-w-[300px] mt-5'>
                                     <img className='max-w-300px] pointer-events-none' src={phaseTwo} alt="phase-one" />
-                                    <p className='text-white font-normal font-oswald absolute top-[124px] left-16 text-custom-5xl leading-custom-6xl'>Phase-3</p>
+                                    <p className='text-white font-normal font-oswald absolute top-[128px] left-16 text-custom-5xl leading-custom-6xl'>Phase-3</p>
                                 </div>
                             </div>
-                            <div className='w-1/3 flex-col flex items-center ps-[175px]'>
+                            <div className='w-1/3 flex-col flex items-center ps-[200px]'>
                                 <div className='flex gap-2'>
                                     <span className='w-1 h-1 bg-white rounded-full mt-4'></span>
                                     <p className='text-custom2xl leading-8 font-oswald font-normal text-white max-w-[207px]'>Elementum elementum sit mauris amet non.</p>
                                 </div>
                                 <div className='relative max-w-[300px] mt-5'>
-                                    <img className='max-w-[220px] pointer-events-none' src={phaseThree} alt="phase-one" />
-                                    <p className='text-white font-normal font-oswald absolute top-[124px] left-16 text-custom-5xl leading-custom-6xl'>Phase-5</p>
+                                    <img className='max-w-[240px] pointer-events-none' src={phaseThree} alt="phase-one" />
+                                    <p className='text-white font-normal font-oswald absolute top-[128px] left-16 text-custom-5xl leading-custom-6xl'>Phase-5</p>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const Roadmap = () => {
                             <div className='w-1/3 flex-col flex absolute left-[19%] top-[76%]'>
                                 <div className='relative max-w-[300px]'>
                                     <img className='max-w-[300px] pointer-events-none' src={phaseFour} alt="phase-one" />
-                                    <p className='text-white font-normal font-oswald absolute top-[124px] left-16 text-custom-5xl leading-custom-6xl'>Phase-2</p>
+                                    <p className='text-white font-normal font-oswald absolute top-[116px] left-16 text-custom-5xl leading-custom-6xl'>Phase-2</p>
                                 </div>
                                 <div className='flex gap-2'>
                                     <span className='w-1 h-1 bg-white rounded-full mt-4'></span>
@@ -78,10 +78,10 @@ const Roadmap = () => {
                                     <p className='text-custom2xl leading-8 font-oswald font-normal text-white max-w-[367px]'>Nibh convallis ornare fringilla diam proin volutpat aliquet nunc.</p>
                                 </div>
                             </div>
-                            <div className='w-1/3 flex-col flex items-center justify-center absolute right-[11%] top-[73%]'>
+                            <div className='w-1/3 flex-col flex items-center justify-center absolute right-[10.9%] top-[75%]'>
                                 <div className='relative max-w-[300px]'>
                                     <img className='max-w-[300px] pointer-events-none' src={phaseFour} alt="phase-one" />
-                                    <p className='text-white font-normal font-oswald absolute top-[124px] left-16 text-custom-5xl leading-custom-6xl'>Phase-4</p>
+                                    <p className='text-white font-normal font-oswald absolute top-[116px] left-16 text-custom-5xl leading-custom-6xl'>Phase-4</p>
                                 </div>
                                 <div className='flex gap-2 ps-7'>
                                     <span className='w-1 h-1 bg-white rounded-full mt-4'></span>

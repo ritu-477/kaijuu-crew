@@ -5,7 +5,7 @@ import CommonHeading from '../common/CommonHeading'
 
 const Story = () => {
   return (
-      <div className='bg-charcoal-black lg:pt-16 md:pt-14 pt-12 lg:pb-24 md:pb-16 sm:pb-14 pb-12 -mt-[1px]' id='story'>
+      <div className='bg-charcoal-black lg:pt-16 md:pt-14 pt-12 lg:pb-24 md:pb-16 sm:pb-14 pb-6 -mt-[2px]' id='story'>
           <div className='container'>
               <div className='flex flex-wrap lg:flex-row flex-col max-lg:flex-col-reverse'>
                   <div className='lg:w-[48%] w-full flex max-lg:justify-center lg:mt-0 mt-5'>

@@ -15,7 +15,7 @@ const KaijuuCrewClasses = () => {
                 }
             />
             <div className="max-w-[1814px] px-5 mx-auto lg:mt-[85px] sm:mt-14 md:mt-16 mt-10">
-                <div className="flex xl:justify-between justify-center gap-5 flex-wrap">
+                <div className="flex xl:justify-between justify-center xl:gap-5 gap-6 md:gap-10 flex-wrap">
                     {CREW_DATA.map((crew, index) => (
                         <div key={index} className="flex flex-col transition duration-300 hover:scale-110">
                             <img
