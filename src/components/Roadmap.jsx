@@ -10,7 +10,7 @@ import ellipseTwo from '../assets/images/webp/roadmap-image-two.webp'
 
 const Roadmap = () => {
     return (
-        <div className='bg-charcoal-black lg:pt-[89px] md:pt-16 sm:pt-14 pt-12 xl:pb-[150px] lg:pb-16 md:pb-16 sm:pb-14 pb-6 -mt-[2px]' id='roadmap'>
+        <div className='bg-charcoal-black lg:pt-[89px] md:pt-16 sm:pt-14 pt-12 xl:pb-[120px] lg:pb-16 md:pb-16 sm:pb-14 pb-6 -mt-[2px]' id='roadmap'>
             <div className='container'>
                 <CommonHeading className="text-center !text-red" text={'Roadmap'} />
                 <div className='xl:block hidden'>
