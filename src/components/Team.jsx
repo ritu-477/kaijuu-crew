@@ -14,7 +14,7 @@ const Team = () => {
             <div className="container">
                 <CommonHeading className="text-center !text-red" text={'Team'} />
                 <div className="lg:mt-14 md:mt-12 mt-6 relative">
-                    <div className='3xl:block hidden'>
+                    <div className='2xl:block hidden'>
                         <button
                             className="absolute swiper-button-prev top-1/2 3xl:-left-6 lg:-left-5 -left-1 z-10">
                             <img
@@ -71,7 +71,7 @@ const Team = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div className='3xl:hidden block mt-6 lg:mt-8'>
+                    <div className='2xl:hidden block mt-6 lg:mt-8'>
                         <div className="custom-pagination flex justify-center"></div>
                     </div>
                 </div>
