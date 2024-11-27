@@ -9,17 +9,17 @@ const Cartoon = () => {
     arrows: false,
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 2000, 
     autoplay: true,
-    autoplaySpeed: 0,
-    cssEase: "linear",
+    autoplaySpeed: 0, 
+    cssEase: "linear", 
     slidesToShow: 9,
     slidesToScroll: 1,
     variableWidth: true,
   };
 
   return (
-    <div className="overflow-hidden mx-auto h-[160px] md:h-[200px] xl:h-[295px] mt-4 md:mt-8">
+    <div className="overflow-hidden w-full mx-auto h-[160px] md:h-[200px] xl:h-[295px] mt-4 md:mt-8">
       <Slider {...settings} className="slider_collaboration">
         {CONTINUE_SLIDER_DATA.map((logo, index) => (
           <div

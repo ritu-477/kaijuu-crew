@@ -17,13 +17,13 @@ const Traits = () => {
                           <p className='lg:text-5xl font-normal sm:text-4xl text-3xl font-godzilla text-white lg:leading-custom-3xl'>Traits</p>
                           <div className='border-b border-white opacity-20 w-full pt-4 lg:pt-[26px]'></div>
                           <div className='flex pt-4 lg:pt-[26px] justify-between w-full'>
-                              <div className='w-1/2'>
+                              <div className='lg:w-1/2'>
                                   <p className='font-normal font-oswald text-lg sm:text-custom2xl sm:leading-8 text-white max-w-[110px]'>Background:8
                                       Skins:19
                                       Headwear:37
                                       Clothes:44</p>
                               </div>
-                              <div className='w-1/2'>
+                              <div className='lg:w-1/2'>
                                   <p className='font-normal font-oswald text-lg sm:text-custom2xl sm:leading-8 text-white max-w-[107px]'>Eyes:23
                                       Mouth:33
                                       Accessories:7</p>
@@ -32,12 +32,12 @@ const Traits = () => {
                           <p className='lg:text-5xl font-normal sm:text-4xl text-3xl font-godzilla text-white lg:leading-custom-3xl lg:pt-14 md:pt-10 pt-4'>Stats</p>
                           <div className='border-b border-white opacity-20 w-full pt-4 lg:pt-[26px]'></div>
                           <div className='flex pt-4 lg:pt-[26px] justify-between w-full'>
-                              <div className='w-1/2'>
+                              <div className='lg:w-1/2'>
                                   <p className='font-bold font-oswald sm:text-4xl sm:leading-custom-5xl text-custom3xl leading-custom-3xl lg:text-5xl lg:leading-custom-8xl text-white max-w-[110px]'>
                                       9,999</p>
                                   <p className='font-normal font-oswald text-custom2xl leading-8 text-white pt-1'>Total Kaijuu</p>
                               </div>
-                              <div className='w-1/2'>
+                              <div className='lg:w-1/2'>
                                   <div className='flex lg:gap-10 gap-3 items-center'>
                                       <p className='font-bold font-oswald sm:text-4xl sm:leading-custom-5xl text-custom3xl leading-custom-3xl lg:text-5xl lg:leading-custom-8xl text-white max-w-[110px]'>
                                           0.0555</p>
