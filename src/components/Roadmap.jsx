@@ -10,15 +10,15 @@ import ellipseTwo from '../assets/images/webp/roadmap-image-two.webp'
 
 const Roadmap = () => {
     return (
-        <div className='bg-charcoal-black lg:pt-[89px] md:pt-16 sm:pt-14 pt-12 lg:pb-[150px] md:pb-16 sm:pb-14 pb-6 -mt-[2px]' id='roadmap'>
+        <div className='bg-charcoal-black lg:pt-[89px] md:pt-16 sm:pt-14 pt-12 xl:pb-[150px] lg:pb-16 md:pb-16 sm:pb-14 pb-6 -mt-[2px]' id='roadmap'>
             <div className='container'>
                 <CommonHeading className="text-center !text-red" text={'Roadmap'} />
                 <div className='xl:block hidden'>
                     <div className='max-w-[1320px] mx-auto relative lg:mb-[250px] md:mb-16 sm:mb-14 mb-12'>
-                        <img className='absolute pointer-events-none top-[47%] xl:left-[15.6%] 2xl:left-[16%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
+                        <img className='absolute pointer-events-none top-[47%] xl:left-[15.6%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
                         <img className='absolute pointer-events-none top-[48%] left-[28.5%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
                         <img className='absolute pointer-events-none top-[49%] right-[28.5%] max-w-[167px]' src={ellipseONE} alt="ellipse-one" />
-                        <img className='absolute pointer-events-none top-[50%] xl:right-[15.6%] 2xl:right-[16%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
+                        <img className='absolute pointer-events-none top-[50%] xl:right-[15.6%] max-w-[167px]' src={ellipseTwo} alt="ellipse-one" />
                         <div className='flex flex-wrap -mx-3 flex-row lg:pt-24 md:pt-20 sm:pt-14 pt-10 justify-center'>
                             <div className='w-1/3'>
                                 <div className='flex flex-col'>
